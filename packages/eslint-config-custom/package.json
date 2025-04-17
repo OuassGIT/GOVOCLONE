@@ -1,0 +1,14 @@
+{
+      "name": "@pizza-delivery/eslint-config-custom",
+      "version": "0.0.0",
+      "main": "index.js",
+      "license": "MIT",
+      "dependencies": {
+        "eslint-config-turbo": "^1.10.16",
+        "eslint-plugin-react": "7.32.2",
+        "eslint": "^8.49.0"
+      },
+      "publishConfig": {
+        "access": "public"
+      }
+    }

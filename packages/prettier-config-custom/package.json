@@ -1,0 +1,12 @@
+{
+      "name": "@pizza-delivery/prettier-config-custom",
+      "version": "0.1.0",
+      "main": "index.js",
+      "license": "MIT",
+      "dependencies": {
+        "prettier": "^3.0.3"
+      },
+      "publishConfig": {
+        "access": "public"
+      }
+    }

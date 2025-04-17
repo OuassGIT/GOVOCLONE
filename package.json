@@ -1,0 +1,20 @@
+{
+      "name": "pizza-delivery-monorepo",
+      "private": true,
+      "packageManager": "npm@latest",
+      "workspaces": [
+        "apps/*",
+        "packages/*",
+        "services/*"
+      ],
+      "scripts": {
+        "dev": "turbo dev",
+        "build": "turbo build",
+        "lint": "turbo lint",
+        "format": "turbo format",
+        "typecheck": "turbo typecheck"
+      },
+      "devDependencies": {
+        "turbo": "^1.10.16"
+      }
+    }
